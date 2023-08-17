@@ -1,0 +1,90 @@
+.menu {
+  width: 130px; /* Ancho del menú */
+  height: 240px; /* Altura del menú */
+  overflow-y: auto; /* Habilitar desplazamiento vertical */
+  border: 1px solid #B3C890; /* Agrega un borde para resaltar el área del menú */
+}
+
+ul {
+  list-style: none; /* Elimina los puntos de lista predeterminados */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+li {
+  padding: 10px; /* Espaciado interno entre elementos de la lista */
+}
+
+a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #000000; /* Color del texto del enlace */
+}
+
+body { font: 400 1em/1.5 "Neuton"; background: #DBDFAA; color: #000000; text-align: center; margin: 0;  border: dashed 50px #B3C890; }
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double #FFC26F;
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+  
+  span {
+
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+}
+
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #008CBA;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+    
+    
+  .btn-next {
+    background-color: #B3C890;
+  }
+    
+  .btn:hover {
+    background-color: #cce2a7; 
+    color: #000000;
+    transform: scale(1.1);
+  }

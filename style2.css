@@ -1,0 +1,332 @@
+body { font: 400 1em/1.5 "Neuton"; background: #DBDFAA; color: #181817; text-align: center; margin: 0; border: dashed 70px #B3C890; }
+
+.fancy-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #a7c970;
+    text-transform: uppercase;
+  }
+  
+.text {
+    margin-left: 16px;
+  }
+
+
+.underlining {
+  text-decoration: underline;
+  text-decoration-color: #B3C890;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+}
+
+.justificado {
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  article {
+    border: 2px dashed #B3C890;
+    padding: 17px;
+    margin-bottom: 0px;
+  }
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #008CBA;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+    
+    
+  .btn-next {
+    background-color: #B3C890;
+  }
+    
+  .btn:hover {
+    background-color: #a7c970; 
+    color: #000000;
+    transform: scale(1.1);
+  }
+
+  .list-container {
+    background-color: #DBDFAA;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    float: left;
+    margin: 7px;
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #000000;
+    text-align: left;
+  }
+
+  .list-title {
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #333;
+    text-align: center;
+  }
+
+  .list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .list-item {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .list-item::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: #81550e;
+  }
+
+  .list-item-text {
+    font-size: 18px;
+    color: #000000;
+  }
+
+
+  .long-text-list {
+    margin: 20px;
+    color: #000000;
+  }
+  
+  .long-text-list dt {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .long-text-list dd {
+    margin: 5px 0 15px 20px;
+  }
+  
+  /* Estilos adicionales para mejorar la legibilidad */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+
+  .bordered-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bordered-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #B3C890;
+    border-radius: 5px;
+    background-color: #DBDFAA;
+  }
+
+
+
+  .animated-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .animated-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+  }  
+  .icon {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  ul.sensory-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  ul.sensory-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .visual-element {
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    margin-right: 10px;
+  }
+  .auditory-description {
+    flex-grow: 1;
+  }
+
+
+  ul.sensory-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  ul.sensory-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #B3C890;
+  }
+  .visual-element {
+    width: 50px;
+    height: 50px;
+    background-color: #B3C890;
+    margin-right: 1px;
+  }
+  .auditory-description {
+    flex-grow: 1;
+  }
+
+  ul.gradient-background-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  ul.gradient-background-list li {
+    padding: 10px;
+    background: linear-gradient(45deg, #a7c478, #b9ce98);
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+
+  
+  .custom-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: center;
+    flex-wrap: wrap;
+  }
+  
+  .custom-list li {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 15px;
+    background-color: #B3C890;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(139, 255, 145, 0.2);
+    text-align: center;
+  }
+
+  ul.arrow-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  ul.arrow-list li {
+    position: relative;
+    padding-left: 20px;
+  }
+  ul.arrow-list li::before {
+    content: "\2192"; /* Código de la flecha (→) */
+    position: center;
+    left: 0;
+    color: #000000; /* Color de la flecha */
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-items: center;
+  }
+
+  .red { background-color: rgb(255, 152, 229); }
+  .blue { background-color: rgb(194, 226, 255); }
+  .green { background-color: rgb(170, 235, 170); }
+  .yellow { background-color: rgb(241, 241, 170); }
+
+  .footer {
+    background-color: #DBDFAA;
+    color: #000000;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .boton-inicio {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DBDFAA;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #f8dfff;
+    border-radius: 4px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .album {
+    display:flex ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  
+  figure {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 400px;
+    height: 300px;
+    transition: transform 0.7s ease;
+  }
+  
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  figure:hover img {
+    transform: scale(0.9);
+  }
+  
+  figure:hover figcaption {
+    opacity: 1;
+  }
